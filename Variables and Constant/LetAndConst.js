@@ -72,3 +72,5 @@ function sayHi() {
   console.log(myName); //and this will print jungkook
 }
 sayHi();
+
+//it is best practice to use const so that the problem of accidently reassigning same variables or redeclaring same variables does not make your code give error
