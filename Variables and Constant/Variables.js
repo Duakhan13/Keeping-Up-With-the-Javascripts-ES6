@@ -37,4 +37,7 @@ function sayName() {
 }
 sayName();
 console.log(myName); //it is not a good practice to redeclare a variable with same name
+//key points about var
 //you cannot declare a variable starting with a number or useing a reserved word
+//var is stored in global scope and function scope however, it does not have block scope.
+//var can be reassigned and redeclared and can be hoisted.
