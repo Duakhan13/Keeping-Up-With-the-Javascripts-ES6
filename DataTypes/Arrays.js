@@ -14,27 +14,27 @@
 
 //how to push items into an array or pop an item from an array
 var namesArray = ["chris", "jesscia", "Newt", "jane"];
-namesArray.push("james", "sally");
-console.log(namesArray);
-namesArray.pop();
-console.log(namesArray);
+//namesArray.push("james", "sally");
+//console.log(namesArray);
+//namesArray.pop();
+//console.log(namesArray);
 
 namesArray.push(["edward", "drake"]);
-console.log(namesArray[4]);
+console.log(namesArray[4][0]); //this will give you the value of the nested array's 0th index
 
-var anotherArray = ["chris", "zack", "jessica", "john", "jane"];
-console.log(anotherArray[5]); //this will give you the value of the nested array's 0th index
-var sortedArray = anotherArray.sort();
-sortedArray.reverse(); //this method reversed the sorted method
-console.log(sortedArray);
-// //concat method
-var myOtherArray = ["jake", "Amy", "Timmy"];
-var concattedArray = anotherArray.concat(myOtherArray);
-console.log(concattedArray);
-// //slice method
-var slicedArray = concattedArray.slice(4, 7);
-console.log(slicedArray);
+// var anotherArray = ["chris", "zack", "jessica", "john", "jane"];
+// console.log(anotherArray[5]);
+// var sortedArray = anotherArray.sort();
+// sortedArray.reverse(); //this method reversed the sorted method
+// console.log(sortedArray);
+// // //concat method
+// var myOtherArray = ["jake", "Amy", "Timmy"];
+// var concattedArray = anotherArray.concat(myOtherArray);
+// console.log(concattedArray);
+// // //slice method
+// var slicedArray = concattedArray.slice(4, 7);
+// console.log(slicedArray);
 
-var anotherSlicedArray = namesArray.slice(namesArray.length - 1);
-console.log(namesArray);
-console.log(anotherSlicedArray);
+// var anotherSlicedArray = namesArray.slice(namesArray.length - 1);
+// console.log(namesArray);
+// console.log(anotherSlicedArray);
