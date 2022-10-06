@@ -63,6 +63,6 @@ const name1 = {
   },
 };
 //here we inherited the values of name1 to name2
-const name2 = Object.create(name1);
+const name2 = Object.creatste(name1);
 name2.sayName();
 console.log(name2.hasOwnProperty("age"));
