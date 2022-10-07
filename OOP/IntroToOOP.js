@@ -2,21 +2,21 @@
  * object oriented programming
  * OOP: basic idea is that you use objects to represent real world
  things. Objects have own properties and functions(methods).
- * Objects can contain data and other code to representinfo about what you'r
+ * Objects can contain data and other code to represent info about what you're
  trying to model
- * Data / methods iside the object is encapsulated
- *In clasic OOP, class is defined, then, when an instance of that class is
- created, all the properties and methods are coppied pver to the instance
+ * Data / methods inside the object is encapsulated
+ *In classic OOP, class is defined, then, when an instance of that class is
+ created, all the properties and methods are copied over to the instance
  * JavaScript is dynamic and does not provide traditional
  class implementation per se
  *Javascript inheritacne is prototype based
- *Each object has a pricate property called prototype
+ *Each object has a private property called prototype
  *The rpototype can have a prototype of its own
  *Nearlly all objects in javascript are instances of object
  which sits on top of the prototype chain.
  *The prototype property's value is an object
  *Think of it as a bucket to store properties and methods
- *Prototyoe as a template and can have prototypes of its own
+ *Prototyoe is a template and can have prototypes of its own
  * The prototype property is where inhertied members are defined
  */
 
@@ -63,6 +63,6 @@ const name1 = {
   },
 };
 //here we inherited the values of name1 to name2
-const name2 = Object.creatste(name1);
+const name2 = Object.create(name1);
 name2.sayName();
 console.log(name2.hasOwnProperty("age"));

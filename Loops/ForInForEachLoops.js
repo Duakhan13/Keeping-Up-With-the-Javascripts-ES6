@@ -22,7 +22,7 @@ for (let d in drinks1) {
 
 //for each loop iterates over each element
 //for each is for arrays
-//downfall of for each is that we cant break out of it or doa continue
+//downfall of for each is that we cant break out of it or do a continue
 const drinks = ["coffee", "sprite", "dew", "coke", "pepsi"];
 drinks.forEach((d) => {
   console.log(d);
